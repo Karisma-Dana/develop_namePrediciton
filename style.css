@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background: url(Images/background2.jpg) ;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+
+    text-align:center;
+    border-radius: 20px;
+    width: 450px;
+    height: 650px;
+    
+}
+
+
+
+.input-Box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.input-Box input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    flex: 1;
+    margin-right: 17px;
+    margin-left: 40px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+.input-Box button{
+    border: 0;
+    outline: 0;
+    border-radius: 50px;
+    background: #ebfffc;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.input-Box button img{
+    width: 20px;
+} 
+
+
+.icon-predict{
+    width: 300px;
+    height: 270px;
+    margin-top: 20px;
+
+
+}
+
+
+.text1{
+    font-size: 21px;
+    margin-bottom: 10px;
+    color: #747264;
+}
+.output h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #747264;
+
+}
+
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #747264;
+}
+.col2{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #747264;
+}
+
+.col1 img{
+    width: 100px;
+}
+
+.col2 img{
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 7px;
+}
+
+.coltext{
+    font-size: 25px;
+}
+.true,.false{
+    font-size: 35px;
+}

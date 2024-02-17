@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prediksi gender</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="card">
+
+
+         
+            <div class="input-Box">
+                <input id="userInput" type="text" placeholder="your first name" required>
+                <i class='bx bxs-user'></i>
+                <button onclick="predict()"><img src="Images/search.png"></button>
+            </div>  
+                   
+            <div class="output">
+                
+                <img src="Images/tanya.png" class="icon-predict" id="icon-predict">
+                <p class="text1" id="name">predict yout name is</p>
+                <h1 id="prediction">None</h1>
+                <div class="details">
+                    <div class="col1">
+                        <img src="Images/true.png">
+                        <div>
+                            <p class="true" id="true">0%</p>
+                            <p class="coltext">True</p>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <img src="Images/false.png">
+                        <div>
+                            <p class="false" id="false">0%</p>
+                            <p class="coltext">False</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                    
+            </div>
+
+        </div>
+       
+        
+        
+       <script src="scrip.js"></script>
+    </body>
+</html>
